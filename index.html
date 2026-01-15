@@ -1,51 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Patrick López | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrick López | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <header>
-        <h1>Patrick López</h1>
-        <p>Estudiante de Ingeniería en Sistemas | Junior Developer</p>
-    </header>
+  <main class="container">
 
-    <section>
+    <!-- COLUMNA IZQUIERDA (TARJETA) -->
+    <aside class="card">
+      <div class="avatar"></div>
+
+      <h1 class="name">Patrick López</h1>
+      <p class="role">Estudiante de Ingeniería en Sistemas</p>
+
+      <div class="divider"></div>
+
+      <ul class="info">
+        <li><span>📍</span> Buenos Aires, AR</li>
+        <li><span>💼</span> Junior / Trainee</li>
+        <li><span>📧</span> tuemail@gmail.com</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <div class="links">
+        <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </aside>
+
+    <!-- COLUMNA DERECHA (CONTENIDO) -->
+    <section class="content">
+
+      <section class="panel" id="sobre-mi">
         <h2>Sobre mí</h2>
         <p>
-            Estudiante de Ingeniería en Sistemas con interés en desarrollo de software y análisis de datos.
-            Busco oportunidades Junior o Trainee para seguir aprendiendo y participar en proyectos reales.
+          Estudiante de Ingeniería en Sistemas con interés en desarrollo de software y análisis de datos.
+          Busco oportunidades Junior o Trainee para seguir aprendiendo y participar en proyectos reales.
         </p>
-    </section>
+      </section>
 
-    <section>
+      <section class="panel" id="habilidades">
         <h2>Habilidades</h2>
-        <ul>
-            <li>Java (básico-intermedio)</li>
-            <li>Python</li>
-            <li>SQL (MySQL / SQL Server)</li>
-            <li>Git & GitHub</li>
-            <li>Power BI (nivel inicial)</li>
+        <ul class="list">
+          <li>Java (básico-intermedio)</li>
+          <li>Python</li>
+          <li>SQL (MySQL / SQL Server)</li>
+          <li>Git & GitHub</li>
+          <li>Power BI (nivel inicial)</li>
         </ul>
-    </section>
+      </section>
 
-    <section>
+      <section class="panel" id="proyectos">
         <h2>Proyectos</h2>
-        <ul>
-            <li>Sistema de gestión simple en Java (académico)</li>
-            <li>Consultas y análisis de datos con SQL</li>
+        <ul class="list">
+          <li>Sistema de gestión simple en Java (académico)</li>
+          <li>Consultas y análisis de datos con SQL</li>
         </ul>
-    </section>
+      </section>
 
-    <section>
+      <section class="panel" id="contacto">
         <h2>Contacto</h2>
         <p>
-            LinkedIn: <a href="https://www.linkedin.com/in/patrick-lopez-70b2b0211/" target="_blank">Mi LinkedIn</a><br>
-            GitHub: <a href="https://github.com/patrickLopez06" target="_blank">Mi GitHub</a>
+          LinkedIn: <a href="#" target="_blank" rel="noreferrer">tu link</a><br />
+          GitHub: <a href="#" target="_blank" rel="noreferrer">tu link</a>
         </p>
+      </section>
+
     </section>
+
+  </main>
 
 </body>
 </html>
